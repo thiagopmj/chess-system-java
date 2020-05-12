@@ -7,7 +7,7 @@ import boardgame.Board;
 import boardgame.Piece;
 
 public class ChessPiece extends Piece {
-	
+
 	private Color clor;
 
 	public ChessPiece(Board board, Color clor) {
@@ -18,6 +18,5 @@ public class ChessPiece extends Piece {
 	public Color getClor() {
 		return clor;
 	}
-	
-	
+
 }
